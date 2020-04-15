@@ -37,16 +37,18 @@
 				<input type="hidden" name="id" value="<?php echo $id4 ?>" /><br>
 				Nama Lengkap<br>
 				<input type="text" name="nama" value="" /><br>
-				Masa Berlangganan<br>
-				<input type="radio" name="jk" value="1 bln" title="1 Bulan" />1 bln &nbsp;&nbsp;&nbsp;
-				<input type="radio" name="jk" value="2 bln" title="1 Bulan" />2 bln &nbsp;&nbsp;&nbsp;
-				<input type="radio" name="jk" value="3 bln" title="2 Bulan"/>3<br>
 				Telepon / Hp<br>
 				<input type="text" name="telp" required /><br>
+				Email<br>
+				<input type="text" name="email" required /><br>
 				Alamat<br>
 				<textarea name="alamat" rows="4" cols="50" required></textarea><br>
 				Tanggal Lahir<br>
+				Pilih Paket<br>
 				<input type="date" name="tgl_lhr" required /><br>
+				<input type="radio" name="jk" value="1 bln" title="1 Bulan" />1 &nbsp;&nbsp;&nbsp;
+				<input type="radio" name="jk" value="2 bln" title="1 Bulan" />2 &nbsp;&nbsp;&nbsp;
+				<input type="radio" name="jk" value="3 bln" title="2 Bulan"/>3<br>
 				
 				<input type="submit" name="daftar" value="Daftar" /><br>
 			</form>
