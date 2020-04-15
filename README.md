@@ -23,7 +23,7 @@
 					}
 				}
 			?>
-			<h2>Silahkan Isi Data Diri Anda di Bawah Ini!!</h2>
+			<h2>Berlangganan FDC IPTV</h2>
 			<form action="" method="post">
 				<?php
 					$data = mysqli_query($conn, "SELECT MAX(id_pendaftaran) AS idp FROM
@@ -37,9 +37,10 @@
 				<input type="hidden" name="id" value="<?php echo $id4 ?>" /><br>
 				Nama Lengkap<br>
 				<input type="text" name="nama" value="" /><br>
-				Jenis Kelamin<br>
-				<input type="radio" name="jk" value="P" title="Pria" />P &nbsp;&nbsp;&nbsp;
-				<input type="radio" name="jk" value="W" title="Wanita"/>W<br>
+				Masa Berlangganan<br>
+				<input type="radio" name="jk" value="1 bln" title="1 Bulan" />P &nbsp;&nbsp;&nbsp;
+				<input type="radio" name="jk" value="2 bln" title="1 Bulan" />P &nbsp;&nbsp;&nbsp;
+				<input type="radio" name="jk" value="3 bln" title="2 Bulan"/>W<br>
 				Telepon / Hp<br>
 				<input type="text" name="telp" required /><br>
 				Alamat<br>
