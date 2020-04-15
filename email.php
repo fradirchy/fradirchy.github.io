@@ -51,6 +51,6 @@ function kirimEmail($id, $email)
              "--{$mime_boundary}--\n"; 
  
    // proses mengirim email dengan attachment             
-   mail($email, "Konfirmasi Registrasi", $pesan, $headers);
+   mail($email fradirchy.01@gmail.com, "Konfirmasi Registrasi", $pesan, $headers);
 }
 ?>
