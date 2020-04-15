@@ -38,9 +38,9 @@
 				Nama Lengkap<br>
 				<input type="text" name="nama" value="" /><br>
 				Masa Berlangganan<br>
-				<input type="radio" name="jk" value="1 bln" title="1 Bulan" />P &nbsp;&nbsp;&nbsp;
-				<input type="radio" name="jk" value="2 bln" title="1 Bulan" />P &nbsp;&nbsp;&nbsp;
-				<input type="radio" name="jk" value="3 bln" title="2 Bulan"/>W<br>
+				<input type="radio" name="jk" value="1 bln" title="1 Bulan" />1 bln &nbsp;&nbsp;&nbsp;
+				<input type="radio" name="jk" value="2 bln" title="1 Bulan" />2 bln &nbsp;&nbsp;&nbsp;
+				<input type="radio" name="jk" value="3 bln" title="2 Bulan"/>3<br>
 				Telepon / Hp<br>
 				<input type="text" name="telp" required /><br>
 				Alamat<br>
