@@ -1,6 +1,10 @@
 <?php
-$conn = mysqli_connect('localhost','root','','db_pendaftaran');
-if(!$conn){
-	echo 'gagal terhubung ke database';
-}
+// isikan parameter koneksi databasenya
+$dbhost = "...";
+$dbuser = "...";
+$dbpass = "...";
+$dbname = "...";
+ 
+mysql_connect($dbhost, $dbuser, $dbpass);
+mysql_select_db($dbname);
 ?>
